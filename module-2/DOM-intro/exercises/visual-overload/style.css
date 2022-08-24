@@ -1,0 +1,11 @@
+.boxes{
+    width: 100px;
+    height: 100px;
+    border: solid;
+}
+
+#win-msg{
+    color:#27ae60;
+    font-family:Helvetica;
+    text-shadow: 3px 1px 2px black;
+}

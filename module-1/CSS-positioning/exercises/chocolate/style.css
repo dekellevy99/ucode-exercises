@@ -1,0 +1,21 @@
+#chocolate-frame{
+    display: inline-block;
+    background-color: black;
+}
+
+.piece{
+    width: 100px;
+    height: 100px;
+    background-color: #66320E;
+    margin: 3px;
+    float: left;
+}
+
+#strip-bar{
+    background-color: darkred;
+    width: 418px;
+    height: 8px;
+    margin-top: 3px;
+    clear: left;
+}
+

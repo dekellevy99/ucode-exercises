@@ -1,0 +1,10 @@
+.name{
+    display: inline-block;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.text{
+    display: inline-block;
+    margin: 5px;
+}

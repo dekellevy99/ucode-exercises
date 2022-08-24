@@ -1,0 +1,119 @@
+/* ==== divs (parent and childs) section ====*/
+
+/* #parent{
+    background-color: red; 
+    display: inline-block;
+    padding: 10px;
+}
+
+#parent > div{
+    width: 100px;
+    height: 100px;
+}
+
+
+#child1{
+    background-color: green;
+    margin-left: 400px;
+
+}
+
+#child2{
+    background-color: blue;
+    margin-left: 400px;
+} */
+
+
+/* ==== relative section ==== */
+
+/* #parent{
+    background-color: red; 
+    width: 300px;
+    height: 300px;
+}
+
+#parent > div{
+    width: 100px;
+    height: 100px;
+}
+
+
+#child1{
+    background-color: blue;
+    position: relative;
+    top: 200px;
+    right: 20px;
+}
+
+#child2{
+    background-color: green;
+} */
+
+
+/* ==== absolute section ==== */
+
+/* #parent{
+    background-color: red; 
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+#parent > div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+
+#child1{
+    background-color: blue;  
+    left: 0px;
+}
+
+#child2{
+    background-color: green;
+    right: 0px;
+}
+
+#child3{
+    background-color: white;
+    left: 100px;
+    bottom: 100px;
+}
+
+
+#child4{
+    background-color: yellow;
+    left: 0px;
+    bottom: 0px;
+}
+
+#child5{
+    background-color: purple;
+    right: 0px;
+    bottom: 0px;
+} */
+
+#parent{
+    background-color: red; 
+    width: 300px;
+    height: 300px;
+}
+
+#parent > div{
+    width: 100px;
+    height: 100px;
+}
+
+
+#child1{
+    background-color: blue;
+
+}
+
+#child2{
+    background-color: green;
+    margin-top: 15px;
+
+}

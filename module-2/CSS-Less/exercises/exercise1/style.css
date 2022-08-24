@@ -1,0 +1,83 @@
+#container{
+    display: grid;
+    width: 350px;
+    height: 500px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "log-frame" "create-frame";
+    margin: 10px;
+}
+
+#login-frame{
+    grid-area: log-frame;
+    background-color: #b1281b;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#login-frame p{
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+#login-frame input{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#login-frame input:hover{
+    border: 1px solid rgb(111, 111, 169);
+}
+
+#login-frame input::placeholder{
+    color:black;
+}
+
+
+#login{
+    display: grid;
+    justify-content: center;
+    height: 50%;
+}
+
+#login-btn{
+    border-radius: 15px;
+    margin: auto;
+    color: black;
+    background-color: aliceblue;
+}
+
+#create-account-frame{
+    grid-area: create-frame;
+    background-color: #950e29;
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#create-account-btn{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+#create-account-btn i{
+    color:#950e29
+}
+
+
+#create-account-frame p{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+

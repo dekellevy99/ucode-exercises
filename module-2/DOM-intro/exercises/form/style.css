@@ -1,0 +1,66 @@
+#form{
+    display: grid;
+    width: max-content;
+    height: max-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "first-sec"
+                         "second-sec"
+                         "third-sed"
+                         "forth-sec";
+    background-color: #1abc9c;
+    border: 7px solid #16a085;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#name{
+    grid-area: first-sec;
+    
+}
+
+#name-input{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#sal-and-birth-container{
+    grid-area: second-sec;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;;
+}
+
+#salary-input{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#birthday-input{
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+#phone{
+    grid-area: third-sed;
+}
+
+#phone-input{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#submit{
+    grid-area: forth-sec;
+    position: relative;
+}
+
+#submit-button{
+    background-color: #16a085;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+

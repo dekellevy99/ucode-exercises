@@ -1,0 +1,44 @@
+#form{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr 0.5fr;
+    grid-template-areas: "nv""m""f";
+    grid-gap: 5px;
+}
+
+#nav-bar{
+    grid-area: nv;
+    background-color: #F7EDE2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.nav-item{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 45px;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+#main{
+    grid-area: m;
+    background-color: #F5CAC3;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#main > div{
+    border: 1px solid;
+}
+
+#footbar{
+    grid-area: f;
+    background-color: #84A59D;
+}

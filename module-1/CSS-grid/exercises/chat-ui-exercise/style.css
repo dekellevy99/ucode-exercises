@@ -1,0 +1,102 @@
+#chat{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15fr 1fr;
+    grid-template-areas: "s m"
+                         "s f";
+    grid-gap: 5px;
+}
+
+#friends-side{
+    grid-area: s;
+    display: grid;
+    background-color: purple;
+    grid-template-rows: repeat(5, 1fr);
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#friends-side > p{
+    color: black;
+    height: 20px;
+    background-color: darkmagenta;
+    padding-left: 5px;
+}
+
+.messages-box{
+    grid-area: m;
+    background-color: gainsboro;
+    border-radius: 15px;  
+    display: grid; 
+    grid-template-rows: repeat(5, 1fr);
+    padding: 20px;
+}
+
+.msg-container{
+    font-family: 'Indie Flower';
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.msg{
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.left{
+    background-color: gray;
+    position: absolute;
+    left: 0;
+}
+
+.right{
+    background-color: green;
+    position: absolute;
+    right: 0;
+}
+
+
+/*
+.msg.left{
+    background-color: gray;
+    position: absolute;
+    left: 0px;
+}
+
+.msg.right{
+    background-color: green;
+    position: absolute;
+    right: 0px;
+} */
+
+.text{
+    font-size: 22px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.time{
+    font-size: 15px;
+    display: inline-block;
+    margin: 0px;
+}
+
+
+#input{
+    grid-area: f;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 5px;
+}
+
+#send-button{
+    border-radius: 15px;
+    background-color: purple;
+    color:white;
+    font-size: large;
+}

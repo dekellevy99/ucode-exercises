@@ -1,0 +1,64 @@
+#graph-frame{
+    width: 400px;
+    height: 200px;
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(169, 126, 210);
+    position: relative;
+    padding: 10px;
+}
+
+.axis{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+#y-axis{
+    left: 10px;
+    top: 10px;
+}
+
+#x-axis{
+    right: 10px;
+    bottom: 10px;
+}
+
+.columns{
+    background-color: darkgrey;
+    width: 40px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#col1{
+    height: 20px;
+    left: 10px;
+}
+
+#col2{
+    height: 110px;
+    left: 70px;
+}
+
+#col3{
+    height: 180px;
+    left: 130px;
+}
+
+#col4{
+    height: 170px;
+    left: 190px;
+}
+
+#col5{
+    height: 150px;
+    left: 250px;
+}
+
+#col6{
+    height: 80px;
+    left: 310px;
+}
+
+
