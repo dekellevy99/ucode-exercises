@@ -65,4 +65,4 @@ $(".animals").append(animalsTemplate({animalsList: animals}));
 
 const languagesScript = $("#languages-template").html();
 const languagesTemplate = Handlebars.compile(languagesScript);
-$(".languages").append(languagesTemplate(languages));
+$(".languages").append(languagesTemplate({languages}));
