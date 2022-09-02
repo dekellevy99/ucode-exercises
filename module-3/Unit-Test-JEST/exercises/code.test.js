@@ -41,10 +41,13 @@ describe("removeAtLeastOne should remove at least one elemnt from a given array"
 
 
 //==== tests for exercise 3 ====
-describe(`simplify should return a clean string without these symbols: "!", "#", ".", ",", "'"`, function(){
+describe(`check simplify function`, function(){
     test(`simplify should return a clean string without these symbols: "!", "#", ".", ",", "'"`, () => {
-        const str = "He!!o ther#. What's up?";
+        const str = "He!!o t,her#. What's up?";
+        const blacklsit = ["!", "#", ".", ",", "'"];
+
         const cleanStr = utils.simplify(str);
+        blacklsit.forEach(c => {expect(cleanStr).not.toContain(c)});
         expect(cleanStr).toBe("Heo ther Whats up?");
     })
 })
