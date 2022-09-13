@@ -9,7 +9,7 @@ class MyEnumerate:
         return self
 
     def __next__(self):
-        if self.cur_index >= len(self.container) or len(self.container) == 0:
+        if self.cur_index >= len(self.container)-1 or len(self.container) == 0:
             raise StopIteration
         else:
             self.cur_index += 1
