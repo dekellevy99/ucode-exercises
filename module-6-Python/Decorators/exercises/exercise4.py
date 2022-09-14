@@ -1,14 +1,17 @@
 def num_of_calls_decorator(func):
-    count = 0
     def inner(*args, **kwargs):
-        count += 1
+        inner.calls += 1
         res = func(*args, **kwargs)
-        print("Call Number: ", count)
+        print("Call Number: ", inner.calls)
         return res
+    inner.calls = 0
     return inner
 
 @num_of_calls_decorator
 def stam_function():
     pass
 
+stam_function()
+stam_function()
+stam_function()
 stam_function()
