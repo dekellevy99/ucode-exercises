@@ -42,4 +42,3 @@ x += [4]             # changing the list
 print(x)              # [1,2,3,4]
 print(copy)           # [1,2,3,4] 
 
-print(range(10) + range(5))
