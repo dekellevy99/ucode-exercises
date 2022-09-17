@@ -1,0 +1,1152 @@
+[
+    {
+        "dimensions": {
+            "plain": {
+                "width": 110,
+                "length": 232
+            },
+            "curve": {
+                "width": 94,
+                "length": 241
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 74,
+                "length": 247
+            },
+            "curve": {
+                "width": 74,
+                "length": 237
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 80,
+                "length": 192
+            },
+            "curve": {
+                "width": 69,
+                "length": 228
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 85,
+                "length": 197
+            },
+            "curve": {
+                "width": 109,
+                "length": 242
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 50,
+                "length": 292
+            },
+            "curve": {
+                "width": 99,
+                "length": 334
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 103,
+                "length": 231
+            },
+            "curve": {
+                "width": 118,
+                "length": 302
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 107,
+                "length": 180
+            },
+            "curve": {
+                "width": 75,
+                "length": 282
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cm",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 96,
+                "length": 179
+            },
+            "curve": {
+                "width": 107,
+                "length": 329
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 53,
+                "length": 243
+            },
+            "curve": {
+                "width": 76,
+                "length": 167
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 48,
+                "length": 274
+            },
+            "curve": {
+                "width": 100,
+                "length": 255
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 91,
+                "length": 263
+            },
+            "curve": {
+                "width": 152,
+                "length": 367
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 84,
+                "length": 158
+            },
+            "curve": {
+                "width": 154,
+                "length": 350
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 112,
+                "length": 226
+            },
+            "curve": {
+                "width": 165,
+                "length": 161
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 118,
+                "length": 155
+            },
+            "curve": {
+                "width": 148,
+                "length": 378
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 70,
+                "length": 346
+            },
+            "curve": {
+                "width": 116,
+                "length": 361
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 95,
+                "length": 215
+            },
+            "curve": {
+                "width": 120,
+                "length": 314
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 107,
+                "length": 210
+            },
+            "curve": {
+                "width": 63,
+                "length": 167
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cm",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 104,
+                "length": 216
+            },
+            "curve": {
+                "width": 51,
+                "length": 324
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cm",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 50,
+                "length": 309
+            },
+            "curve": {
+                "width": 143,
+                "length": 281
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cm",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 96,
+                "length": 288
+            },
+            "curve": {
+                "width": 55,
+                "length": 186
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 69,
+                "length": 226
+            },
+            "curve": {
+                "width": 156,
+                "length": 247
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 40,
+                "length": 218
+            },
+            "curve": {
+                "width": 155,
+                "length": 270
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 65,
+                "length": 218
+            },
+            "curve": {
+                "width": 164,
+                "length": 333
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 66,
+                "length": 253
+            },
+            "curve": {
+                "width": 70,
+                "length": 375
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 47,
+                "length": 191
+            },
+            "curve": {
+                "width": 117,
+                "length": 222
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 61,
+                "length": 293
+            },
+            "curve": {
+                "width": 60,
+                "length": 220
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 55,
+                "length": 326
+            },
+            "curve": {
+                "width": 103,
+                "length": 219
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 68,
+                "length": 268
+            },
+            "curve": {
+                "width": 86,
+                "length": 289
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 97,
+                "length": 183
+            },
+            "curve": {
+                "width": 139,
+                "length": 285
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 124,
+                "length": 216
+            },
+            "curve": {
+                "width": 110,
+                "length": 319
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 45,
+                "length": 182
+            },
+            "curve": {
+                "width": 55,
+                "length": 293
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 70,
+                "length": 345
+            },
+            "curve": {
+                "width": 120,
+                "length": 374
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cm",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 110,
+                "length": 309
+            },
+            "curve": {
+                "width": 159,
+                "length": 348
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cm",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 86,
+                "length": 247
+            },
+            "curve": {
+                "width": 151,
+                "length": 173
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 77,
+                "length": 159
+            },
+            "curve": {
+                "width": 65,
+                "length": 156
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 122,
+                "length": 247
+            },
+            "curve": {
+                "width": 70,
+                "length": 259
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 59,
+                "length": 303
+            },
+            "curve": {
+                "width": 122,
+                "length": 246
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cm",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 43,
+                "length": 308
+            },
+            "curve": {
+                "width": 120,
+                "length": 323
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 92,
+                "length": 187
+            },
+            "curve": {
+                "width": 165,
+                "length": 219
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 56,
+                "length": 257
+            },
+            "curve": {
+                "width": 110,
+                "length": 305
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Ei",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 105,
+                "length": 173
+            },
+            "curve": {
+                "width": 121,
+                "length": 154
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 97,
+                "length": 304
+            },
+            "curve": {
+                "width": 153,
+                "length": 256
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 84,
+                "length": 272
+            },
+            "curve": {
+                "width": 145,
+                "length": 272
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 58,
+                "length": 202
+            },
+            "curve": {
+                "width": 164,
+                "length": 265
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 88,
+                "length": 296
+            },
+            "curve": {
+                "width": 149,
+                "length": 366
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cc",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 122,
+                "length": 172
+            },
+            "curve": {
+                "width": 140,
+                "length": 176
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 75,
+                "length": 228
+            },
+            "curve": {
+                "width": 122,
+                "length": 202
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Lo",
+        "condition": {
+            "status": "alive",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 64,
+                "length": 273
+            },
+            "curve": {
+                "width": 101,
+                "length": 248
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 49,
+                "length": 269
+            },
+            "curve": {
+                "width": 71,
+                "length": 201
+            }
+        },
+        "gender": "female",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Cm",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    },
+    {
+        "dimensions": {
+            "plain": {
+                "width": 45,
+                "length": 302
+            },
+            "curve": {
+                "width": 168,
+                "length": 226
+            }
+        },
+        "gender": "male",
+        "markings": {
+            "rightSide": "N/A",
+            "leftSide": "scratched"
+        },
+        "hasData": true,
+        "species": "Dc",
+        "condition": {
+            "status": "dead",
+            "stage": "dead"
+        }
+    }
+]
