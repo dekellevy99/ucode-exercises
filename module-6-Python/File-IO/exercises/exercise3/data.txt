@@ -1,0 +1,8 @@
+closet - 500
+hammer - 18
+bed - 300
+fridge - 800
+oven - 400
+chair - 120
+table - 450
+door - 180

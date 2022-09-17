@@ -1,0 +1,4 @@
+Quize 1: 84
+Quize 2: 85
+Quize 3: 81
+Avg Score: 83.33333333333333
