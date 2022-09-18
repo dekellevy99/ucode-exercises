@@ -1,0 +1,2 @@
+hiii hello it is example
+for a file that the server can send to the clients
