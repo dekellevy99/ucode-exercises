@@ -1,4 +1,4 @@
-<H1> ===== CRUD MOVIES ==== </H1>
+<H1> 1. CRUD MOVIES </H1>
 
 
 ### valid request
@@ -17,6 +17,7 @@
         popularity:
         review:
         runtime:
+        actors: 
     }
 
 ### invalid request
@@ -48,6 +49,8 @@
                 popularity:
                 review:
                 runtime:
+                actors: 
+
             },
 
             {
@@ -61,6 +64,7 @@
                 popularity:
                 review:
                 runtime:
+                actors: 
             }
             .
             . up to 20 records.
@@ -76,6 +80,7 @@
                 popularity:
                 review:
                 runtime:
+                actors: 
             }
         ]
     }
@@ -93,6 +98,7 @@
         popularity:
         review:
         runtime:
+        actors: 
     }
 
 ### response
@@ -110,6 +116,7 @@
         popularity:
         review:
         runtime:
+        actors:
     }
 
 ### invalid request
@@ -123,6 +130,7 @@
         popularity:
         review:
         runtime:
+        actors:
     }
 
 ### response
@@ -150,6 +158,7 @@
         popularity:
         review:
         runtime:
+        actors:
     }
 
 ### response
@@ -166,10 +175,26 @@
         popularity:
         review:
         runtime:
+        actors:
     }
 
 ### invalid request
     PUT http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
+    {
+        id: 
+        title:
+        plot:
+        poster:
+        budget:
+        revenue:
+        genres:
+        popularity:
+        review:
+        runtime:
+        actors:
+    }
+
+### response
     HTTP/1.1 404 Not Found
     Content-Type: application/json
     {
@@ -196,7 +221,7 @@
 --------------------------------------------------------------------------------------
 
 
-<H1> ===== CRUD ACTORS ==== </H1>
+<H1> 2. CRUD ACTORS </H1>
 
 
 ### valid request
@@ -212,6 +237,7 @@
         deathday:
         gender:
         popularity:
+        movies: 
     }
 
 ### invalid request
@@ -240,6 +266,7 @@
                 deathday:
                 gender:
                 popularity:
+                movies:
             },
 
             {
@@ -250,6 +277,7 @@
                 deathday:
                 gender:
                 popularity:
+                movies:
             }
             .
             . up to 20 records.
@@ -262,6 +290,7 @@
                 deathday:
                 gender:
                 popularity:
+                movies:
             }
         ]
     }
@@ -276,6 +305,7 @@
         deathday:
         gender:
         popularity:
+        movies:
     }
 
 ### response
@@ -290,6 +320,7 @@
         deathday:
         gender:
         popularity:
+        movies:
     }
 
 ### invalid request
@@ -300,6 +331,7 @@
         deathday:
         gender:
         popularity:
+        movies:
     }
 
 ### response
@@ -324,6 +356,7 @@
         deathday:
         gender:
         popularity:
+        movies:
     }
 
 ### response
@@ -337,10 +370,21 @@
         deathday:
         gender:
         popularity:
+        movies:
     }
 
 ### invalid request
     PUT http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
+    {
+        id: 
+        name: 
+        bio:
+        birthday:
+        deathday:
+        gender:
+        popularity:
+        movies:
+    }
 
 ### response
     HTTP/1.1 404 Not Found
@@ -368,4 +412,270 @@
 
 --------------------------------------------------------------------------------------
 
-<H1> ===== Get Actors Of Specific Movie ==== </H1>
+<H1> 3. Get actors of a specific movie </H1>
+
+### request
+GET http://api.movieapp.com/mvoies/{id}/actors HTTP/1.1
+
+### response
+    HTTP/1.1 200
+    {
+        [
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+                movies:
+            },
+
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+                movies:
+            }
+            .
+            . up to 20 records.
+            .
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+                movies:
+            }
+        ]
+    }
+
+<H1> 4. Add an actor to a specific movie </H1>
+
+### request
+    PUT http://api.movieapp.com/movies/{id} HTTP/1.1
+    {
+        id: 
+        name: 
+        bio:
+        birthday:
+        deathday:
+        gender:
+        popularity:
+        movies:
+    }
+
+### response
+    HTTP/1.1 200 Ok
+    Content-Type: application/json
+    {
+        id: 
+        name: 
+        bio:
+        birthday:
+        deathday:
+        gender:
+        popularity:
+        movies:
+    }
+
+<H1> 5. Remove an actor from a specific movie </H1>
+
+### request
+    DELETE http://api.movieapp.com/movies/{id}/actors/{id} HTTP/1.1
+
+### response
+    HTTP/1.1 204 Not Contnet
+
+<H1> 6. Get the top 3 stars of a specific movie </H1>
+
+### request
+    GET http://api.movieapp.com/movies/{id}/actors?top=3 HTTP/1.1
+
+### response
+    HTTP/1.1 200
+    {
+        [
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+                movies:
+            },
+
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+                movies:
+            },
+
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+                movies:
+            }
+        ]
+    }
+
+<H1> 7. Update a specific movie's revenue </H1>
+
+### request
+    PUT http://api.movieapp.com/movies/{id} HTTP/1.1
+    {
+        id: 
+        name: 
+        bio:
+        birthday:
+        deathday:
+        gender:
+        popularity:
+        movies:
+    }
+
+### response
+    HTTP/1.1 200 Ok
+    Content-Type: application/json
+    {
+        id: 
+        name: 
+        bio:
+        birthday:
+        deathday:
+        gender:
+        popularity:
+        movies:
+    }
+
+<H1> 8. Get the top 10 action movies </H1>
+
+<H1> 9. Get the drama movies of a specific actor </H1>
+
+### request
+    GET http://api.movieapp.com/actors/{id}/movies?genres=drama HTTP/1.1
+
+### response
+    HTTP/1.1 200
+    {
+        [
+            {
+                id:
+                title:
+                plot:
+                poster:
+                budget:
+                revenue:
+                genres:
+                popularity:
+                review:
+                runtime:
+                actors: 
+
+            },
+
+            {
+                id:
+                title:
+                plot:
+                poster:
+                budget:
+                revenue:
+                genres:
+                popularity:
+                review:
+                runtime:
+                actors: 
+            },
+            .
+            .
+            .
+            {
+                id:
+                title:
+                plot:
+                poster:
+                budget:
+                revenue:
+                genres:
+                popularity:
+                review:
+                runtime:
+                actors: 
+            }
+        ]
+    }
+
+<H1> 10. Get the top 3 most popular movies of a specific actor </H1>
+
+### request
+    GET http://api.movieapp.com/actors/{id}/movies?top=3 HTTP/1.1
+
+### response
+    HTTP/1.1 200
+    {
+        [
+            {
+                id:
+                title:
+                plot:
+                poster:
+                budget:
+                revenue:
+                genres:
+                popularity:
+                review:
+                runtime:
+                actors: 
+
+            },
+
+            {
+                id:
+                title:
+                plot:
+                poster:
+                budget:
+                revenue:
+                genres:
+                popularity:
+                review:
+                runtime:
+                actors: 
+            },
+
+            {
+                id:
+                title:
+                plot:
+                poster:
+                budget:
+                revenue:
+                genres:
+                popularity:
+                review:
+                runtime:
+                actors: 
+            }
+        ]
+    }
