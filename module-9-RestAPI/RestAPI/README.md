@@ -2,7 +2,7 @@
 
 
 ### valid request
-GET http://api.movieapp.com/movies/{id} HTTP/1.1
+    GET http://api.movieapp.com/movies/{id} HTTP/1.1
 
 ### response
     HTTP/1.1 200 Ok
@@ -20,7 +20,7 @@ GET http://api.movieapp.com/movies/{id} HTTP/1.1
     }
 
 ### invalid request
-GET http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
+    GET http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
 
 ### response
     HTTP/1.1 404 Not Found
@@ -31,7 +31,7 @@ GET http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
  
 --------------------------------------------------------------------------------------
 ### valid request
-GET http://api.movieapp.com/movies?offset=20&limit=20 HTTP/1.1
+    GET http://api.movieapp.com/movies?offset=20&limit=20 HTTP/1.1
 
 ### response
     HTTP/1.1 200
@@ -82,7 +82,7 @@ GET http://api.movieapp.com/movies?offset=20&limit=20 HTTP/1.1
 
 --------------------------------------------------------------------------------------
 ### valid request
-POST http://api.movieapp.com/movies HTTP/1.1
+    POST http://api.movieapp.com/movies HTTP/1.1
     {
         title:
         plot:
@@ -113,7 +113,7 @@ POST http://api.movieapp.com/movies HTTP/1.1
     }
 
 ### invalid request
-POST http://api.movieapp.com/movies HTTP/1.1
+    POST http://api.movieapp.com/movies HTTP/1.1
     {
         plot:
         poster:
@@ -138,7 +138,7 @@ POST http://api.movieapp.com/movies HTTP/1.1
 --------------------------------------------------------------------------------------
 
 ### valid request
-PUT http://api.movieapp.com/movies/{id} HTTP/1.1
+    PUT http://api.movieapp.com/movies/{id} HTTP/1.1
     {
         id: 
         title:
@@ -169,7 +169,7 @@ PUT http://api.movieapp.com/movies/{id} HTTP/1.1
     }
 
 ### invalid request
-PUT http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
+    PUT http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
     HTTP/1.1 404 Not Found
     Content-Type: application/json
     {
@@ -178,13 +178,13 @@ PUT http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
 
 --------------------------------------------------------------------------------------
 ### valid request
-DELETE http://api.movieapp.com/movies/{id} HTTP/1.1
+    DELETE http://api.movieapp.com/movies/{id} HTTP/1.1
 
 ### response
-HTTP/1.1 204 Not Content
+    HTTP/1.1 204 Not Content
 
 ### invalid request
-DELETE http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
+    DELETE http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
 
 ### response
     HTTP/1.1 404 Not Found
@@ -200,7 +200,7 @@ DELETE http://api.movieapp.com/movies/{id which not exist} HTTP/1.1
 
 
 ### valid request
-GET http://api.movieapp.com/actors/{id} HTTP/1.1
+    GET http://api.movieapp.com/actors/{id} HTTP/1.1
 
 ### response
     HTTP/1.1 200 Ok
@@ -215,7 +215,7 @@ GET http://api.movieapp.com/actors/{id} HTTP/1.1
     }
 
 ### invalid request
-GET http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
+    GET http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
 
 ### response
     HTTP/1.1 404 Not Found
@@ -226,49 +226,49 @@ GET http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
  
 --------------------------------------------------------------------------------------
 ### valid request
-GET http://api.movieapp.com/actors?offset=20&limit=20 HTTP/1.1
+    GET http://api.movieapp.com/actors?offset=20&limit=20 HTTP/1.1
 
 ### response
-HTTP/1.1 200
-{
-    [
-        {
-            id: 
-            name: 
-            bio:
-            birthday:
-            deathday:
-            gender:
-            popularity:
-        },
+    HTTP/1.1 200
+    {
+        [
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+            },
 
-        {
-            id: 
-            name: 
-            bio:
-            birthday:
-            deathday:
-            gender:
-            popularity:
-        }
-        .
-        . up to 20 records.
-        .
-        {
-            id: 
-            name: 
-            bio:
-            birthday:
-            deathday:
-            gender:
-            popularity:
-        }
-    ]
-}
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+            }
+            .
+            . up to 20 records.
+            .
+            {
+                id: 
+                name: 
+                bio:
+                birthday:
+                deathday:
+                gender:
+                popularity:
+            }
+        ]
+    }
 
 --------------------------------------------------------------------------------------
 ### valid request
-POST http://api.movieapp.com/actors HTTP/1.1
+    POST http://api.movieapp.com/actors HTTP/1.1
     {
         name: 
         bio:
@@ -293,7 +293,7 @@ POST http://api.movieapp.com/actors HTTP/1.1
     }
 
 ### invalid request
-POST http://api.movieapp.com/actors HTTP/1.1
+    POST http://api.movieapp.com/actors HTTP/1.1
     {
         bio:
         birthday:
@@ -315,7 +315,7 @@ POST http://api.movieapp.com/actors HTTP/1.1
 --------------------------------------------------------------------------------------
 
 ### valid request
-PUT http://api.movieapp.com/actors/{id} HTTP/1.1
+    PUT http://api.movieapp.com/actors/{id} HTTP/1.1
     {
         id: 
         name: 
@@ -327,20 +327,21 @@ PUT http://api.movieapp.com/actors/{id} HTTP/1.1
     }
 
 ### response
-HTTP/1.1 200
-Content-Type: application/json
-{
-    id: 
-    name: 
-    bio:
-    birthday:
-    deathday:
-    gender:
-    popularity:
-}
+    HTTP/1.1 200
+    Content-Type: application/json
+    {
+        id: 
+        name: 
+        bio:
+        birthday:
+        deathday:
+        gender:
+        popularity:
+    }
 
 ### invalid request
-PUT http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
+    PUT http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
+
 ### response
     HTTP/1.1 404 Not Found
     Content-Type: application/json
@@ -350,18 +351,19 @@ PUT http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
 
 --------------------------------------------------------------------------------------
 ### valid request
-DELETE http://api.movieapp.com/actors/{id} HTTP/1.1
+    DELETE http://api.movieapp.com/actors/{id} HTTP/1.1
+
 ### response
-HTTP/1.1 204 Not Content
+    HTTP/1.1 204 Not Content
 
 ### invalid request
-DELETE http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
+    DELETE http://api.movieapp.com/actors/{id which not exist} HTTP/1.1
 
 ### response
     HTTP/1.1 404 Not Found
     Content-Type: application/json
     {
-    "error": "Invalid Id - does't exist" 
+        "error": "Invalid Id - does't exist" 
     }
 
 --------------------------------------------------------------------------------------
