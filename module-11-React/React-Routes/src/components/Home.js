@@ -7,7 +7,7 @@ class Home extends Component {
 
     render() {
         return (
-            <Router>
+       
                 <div>
                     <div id="u-input">
                         <input type="text" placeholder="Ask and you shall receive" />
@@ -24,7 +24,7 @@ class Home extends Component {
                         <div id="deities"><span className="main-directory-text"><Link to='/directory/deities'>Deities</Link></span></div>
                     </div>
                 </div>
-            </Router>
+        
 
         );
     }

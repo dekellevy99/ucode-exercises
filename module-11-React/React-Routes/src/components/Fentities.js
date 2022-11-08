@@ -13,7 +13,7 @@ class Fentities extends Component {
                 <div id="fentities-container">
                     {fentities.map(f => {
                         return (
-                            <Link to={`${fentitiesCategory}/${f.name}`} key={f.name}>
+                            <Link to={`/directory/${fentitiesCategory}/${f.name}`} key={f.name}>
                                 <div className="mini">
                                     <img className="directory-img" src={f.imgUrl} alt="" />
                                     <span>{f.name}</span>
